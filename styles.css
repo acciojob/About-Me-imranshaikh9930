@@ -1,1 +1,13 @@
-
+.sub-container{
+	display:flex;
+/* 	justify-content:space-between; */
+	gap:15px;
+}
+.Image{
+	width:200px;
+	height:320px;
+}
+.Image > img{
+	width:90%;
+	object-fit:contain;
+}
